@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "partykit dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nitroparty": "^0.0.4",
+    "nuxt": "^3.10.0",
+    "partykit": "^0.0.80",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  }
+}

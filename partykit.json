@@ -1,0 +1,10 @@
+{
+  "$schema": "https://www.partykit.io/schema.json",
+  "name": "nitroparty",
+  "main": "./.output/server/index.mjs",
+  "compatibilityDate": "2023-12-26",
+  "build": {
+    "command": "npx nuxt build"
+  },
+  "serve": "./.output/public"
+}
